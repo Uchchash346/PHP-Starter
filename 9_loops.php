@@ -11,7 +11,14 @@ echo "<br>";
 // for loop
 for ($x = 0; $x <= 10; $x++) {
     echo "The number is: $x <br>";
-  }
-  
+}
 
+echo "<br>";
+
+// foreach loop
+$data = array('HTML', 'CSS', 'PHP', 'React');
+foreach($data as $v)
+{
+    echo $v . "<br>";
+}
 ?>
