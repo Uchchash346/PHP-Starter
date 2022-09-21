@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+header, footer{
+    height: 100px;
+    background: #585745;
+    overflow: hidden;
+}
